@@ -2,12 +2,12 @@ export default {
     theme: {
       extend: {
         colors: {
-          "main_color": "#d39c4c",
-          "fifth-color": "#17182Fff",
-          "third-color": "#E2BB3Dff",
+          "mainColor": "#d39c4c",
+          "fifthColor": "#17182Fff",
+          "thirdColor": "#E2BB3Dff",
           "black": "#000000ff",
-          "second_color": "#0B0B4Dff",
-          "fourth-color": "#CF9A47ff"
+          "secondColor": "#0B0B4Dff",
+          "fourthColor": "#CF9A47ff"
         },
       },
     },

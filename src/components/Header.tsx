@@ -13,7 +13,7 @@ function Header() {
             <h2 className="font-bold">All In Travels.</h2>
             <FaListUl size={24} onClick={()=> toggleMenu()}/> 
         </div>
-        <header className={`absolute top-0 left-0 w-full bg-gray-200 h-screen flex flex-col items-center gap-10 z-50 justify-center ${
+        <header className={`absolute top-0 left-0 w-full bg-blue-100 h-screen flex flex-col items-center gap-10 z-50 justify-center ${
           isOpen ? "translate-y-0" : "-translate-y-[100vh]"} 
           transition-transform duration-500 ease-in-out md:hidden
         `}>
