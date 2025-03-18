@@ -1,3 +1,4 @@
+import Card from "./components/card"
 import Header from "./components/Header"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           </div>
         </div>
       </header>
+      <Card text="Hola" img="/src/assets/viajes_grupales.png"/>
     </>
   )
 }
