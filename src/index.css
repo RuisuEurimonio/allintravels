@@ -17,8 +17,10 @@ h1 {
   line-height: 1.1;
 }
 
-.custom-animation{
-  animation: carrusel 25s infinite steps(3);
+@media (width <= 20rem){
+  .custom-animation{
+    animation: carrusel 25s infinite steps(3);
+  }
 }
 
 @keyframes carrusel{
