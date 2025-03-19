@@ -47,27 +47,36 @@ function App() {
           md:py-10 md:w-[70vw] md:text-2xl
         "> Un copy cercano como hablandole a un amigo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  </p>
       </section>
-      <section className="w-[90vw] m-auto flex flex-col items gap-1">
-        <div className="bg-amber-600 p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto">
+      <section className="w-[90vw] m-auto flex flex-col items gap-1
+        sm:flex-row sm:w-[200%] sm:ml-10 sm:justify-start sm:m-0 sm:relative
+        xl:justify-center xl:w-auto
+      ">
+        <div className="bg-amber-600 p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
+          sm:mx-0
+        ">
           <TiSocialInstagram size={30} color="white"/>
         </div>
-        <div>
-          <img src="/src/assets/nosotros_1.png"/>
+        <div className="m-auto sm:mx-4">
+          <img src="/src/assets/nosotros_1.png" className="max-w-90"/>
           <p className="text-amber-600 floa"> @churroceballos </p>
         </div>
-        <ul className="w-[300%] flex custom-animation-aboutUs">
+        <ul className="flex
+            sm:overflow-x-hidden 
+        ">
           <li>
-            <img src="/src/assets/nosotros_2.png"></img>
+            <img src="/src/assets/nosotros_2.png" className="max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_3.png"></img>
+            <img src="/src/assets/nosotros_3.png" className="max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_4.png"></img>
+            <img src="/src/assets/nosotros_4.png" className="max-w-90"></img>
           </li>
         </ul>
-        <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto">
-          <FaArrowAltCircleRight size={30}/>
+        <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
+          sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0
+        ">
+          <FaArrowAltCircleRight size={30} color="white" className="hidden sm:block"/>
         </div>
       </section>
     </div>
