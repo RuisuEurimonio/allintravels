@@ -2,7 +2,7 @@ import React from "react"
 import Card from "./components/card"
 import Header from "./components/Header"
 import { TiSocialInstagram } from "react-icons/ti"
-import { FaArrowAltCircleRight } from "react-icons/fa"
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
 import InfoCard from "./components/InfoCard"
 
 function App() {
@@ -75,20 +75,35 @@ function App() {
           </li>
         </ul>
         <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
-          sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0
+          sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0 sm:flex-grow
         ">
           <FaArrowAltCircleRight size={30} color="white" className="hidden sm:block"/>
         </div>
       </section>
       <hr className="border-[var(--main-color)] w-[90%] m-auto"/>
       <section>
-        <h2> Experiencias grupales. </h2>
-        <div>
-        <InfoCard date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
+        <h2 className="text-[var(--main-color)] font-extrabold text-center text-4xl my-4 tracking-[.5rem]"> Experiencias grupales. </h2>
+        <div className="flex flex-col gap-2 items-center
+          sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4
+          md:justify-center md:gap-12
+        ">
+        <FaArrowAltCircleLeft  size={50} className="text-[var(--main-color)]" />
+        <InfoCard className="flex-1" date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
           price="DESDE 5.500 USD"
           title="SAFARI (ÁFRICA)"
           img="/src/assets/exp_grupales_1.png"
         />
+        <InfoCard className="flex-1" date="30/04 - 11/05" status="AGOTADO" description="Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia." 
+          price="DESDE 2.700 USD"
+          title="JAPÓN: TRADICIÓN Y MODERNIDAD"
+          img="/src/assets/exp_grupales_2.png"
+        />
+        <InfoCard className="flex-1" date="01 AL 08 DE ABRIL" status="CUPOS DISPONIBLES" description="El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo." 
+          price=" DESDE 4.200 USD"
+          title="EGIPTO: MÍSTICO Y MAJESTUOSO"
+          img="/src/assets/exp_grupales_3.png"
+        />
+        <FaArrowAltCircleRight size={50} className="text-[var(--main-color)]"/>
         </div>
       </section>
     </div>
