@@ -21,7 +21,7 @@ function App() {
             <p className="text-white text-4xl tracking-[.4rem]
               md:text-7xl md:tracking-[2rem]
             ">THE TRAVEL</p>
-            <h2 className="text-amber-500 tracking-[1rem]
+            <h2 className="text-[var(--main-color)] tracking-[1rem]
               md:tracking-[3rem] md:text-3xl
             ">EXPERIENCE</h2>
             <div className="flex w-[300%] overflow-x-hidden custom-animation
@@ -41,7 +41,7 @@ function App() {
         </div>
       </header>
       <section className="pt-10">
-        <h1 className="text-center text-2xl font-bold text-amber-400 tracking-[.5rem]
+        <h1 className="text-center text-2xl font-bold text-[var(--main-color)] tracking-[.5rem]
           md:text-5xl
         "> Nosotros </h1>
         <p className="text-justify w-[80vw] mx-auto
@@ -52,14 +52,14 @@ function App() {
         sm:flex-row sm:w-[200%] sm:ml-10 sm:justify-start sm:m-0 sm:relative
         xl:justify-center xl:w-auto
       ">
-        <div className="bg-amber-600 p-1 rounded-full flex items-center justify-center m-auto
+        <div className="bg-[var(--main-color)] p-1 rounded-full flex items-center justify-center m-auto
           sm:mx-0
         ">
           <TiSocialInstagram size={30} color="white"/>
         </div>
         <div className="m-auto sm:mx-4">
           <img src="/src/assets/nosotros_1.png" className="sm:max-w-90"/>
-          <p className="text-amber-600 floa"> @churroceballos </p>
+          <p className="text-[var(--main-color)] floa"> @churroceballos </p>
         </div>
         <ul className="flex
             sm:overflow-x-hidden 
@@ -80,14 +80,16 @@ function App() {
           <FaArrowAltCircleRight size={30} color="white" className="hidden sm:block"/>
         </div>
       </section>
-      <hr className="border-amber-600 w-[90%] m-auto"/>
+      <hr className="border-[var(--main-color)] w-[90%] m-auto"/>
       <section>
         <h2> Experiencias grupales. </h2>
+        <div>
         <InfoCard date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
           price="DESDE 5.500 USD"
           title="SAFARI (ÁFRICA)"
-          img="/src/assets/"
+          img="/src/assets/exp_grupales_1.png"
         />
+        </div>
       </section>
     </div>
   )
