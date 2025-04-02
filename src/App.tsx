@@ -3,6 +3,7 @@ import Card from "./components/card"
 import Header from "./components/Header"
 import { TiSocialInstagram } from "react-icons/ti"
 import { FaArrowAltCircleRight } from "react-icons/fa"
+import InfoCard from "./components/InfoCard"
 
 function App() {
   
@@ -51,26 +52,26 @@ function App() {
         sm:flex-row sm:w-[200%] sm:ml-10 sm:justify-start sm:m-0 sm:relative
         xl:justify-center xl:w-auto
       ">
-        <div className="bg-amber-600 p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
+        <div className="bg-amber-600 p-1 rounded-full flex items-center justify-center m-auto
           sm:mx-0
         ">
           <TiSocialInstagram size={30} color="white"/>
         </div>
         <div className="m-auto sm:mx-4">
-          <img src="/src/assets/nosotros_1.png" className="max-w-90"/>
+          <img src="/src/assets/nosotros_1.png" className="sm:max-w-90"/>
           <p className="text-amber-600 floa"> @churroceballos </p>
         </div>
         <ul className="flex
             sm:overflow-x-hidden 
         ">
           <li>
-            <img src="/src/assets/nosotros_2.png" className="max-w-90"></img>
+            <img src="/src/assets/nosotros_2.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_3.png" className="max-w-90"></img>
+            <img src="/src/assets/nosotros_3.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_4.png" className="max-w-90"></img>
+            <img src="/src/assets/nosotros_4.png" className="sm:max-w-90"></img>
           </li>
         </ul>
         <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
@@ -78,6 +79,15 @@ function App() {
         ">
           <FaArrowAltCircleRight size={30} color="white" className="hidden sm:block"/>
         </div>
+      </section>
+      <hr className="border-amber-600 w-[90%] m-auto"/>
+      <section>
+        <h2> Experiencias grupales. </h2>
+        <InfoCard date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
+          price="DESDE 5.500 USD"
+          title="SAFARI (ÁFRICA)"
+          img="/src/assets/"
+        />
       </section>
     </div>
   )
