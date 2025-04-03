@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import { TiSocialInstagram } from "react-icons/ti"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
 import InfoCard from "./components/InfoCard"
+import CardBlog from "./components/CardBlog"
 
 function App() {
   
@@ -134,6 +135,18 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="bg-[var(--main-color)] py-3">
+        <h2 className="text-white text-2xl uppercase text-center font-bold tracking-[1rem] mb-4"> Blogs </h2>
+        <div className="w-[90%] mx-auto grid gap-4
+                        md:grid-flow-col md:grid-rows-2 md:w-[85%]
+                        xl:w-[55%]
+        ">
+          <CardBlog className="row-span-2" img="blogs_1.png" title="DESTINOS PARA PAREJAS EN 2025" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam..." />
+          <CardBlog img="blogs_2.png" title="VUELVE LA VISA PARA VIAJAR A LONDRES" text="" />
+          <CardBlog img="blogs_3.png" title="TOP 3 DESTINOS EN COLOMBIA" text="" />
+        </div>
+      </section>
+
     </div>
   )
 }
