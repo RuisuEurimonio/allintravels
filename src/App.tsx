@@ -1,10 +1,10 @@
-import React from "react"
 import Card from "./components/card"
 import Header from "./components/Header"
 import { TiSocialInstagram } from "react-icons/ti"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
 import InfoCard from "./components/InfoCard"
 import CardBlog from "./components/CardBlog"
+import Form from "./components/form"
 
 function App() {
   
@@ -108,7 +108,7 @@ function App() {
         </div>
       </section>
 
-      <section className="my-8 w-[85%]
+      <section className="my-8 w-[85%] mx-auto
                       sm:mx-auto
       ">
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.1rem]
@@ -145,6 +145,12 @@ function App() {
           <CardBlog img="blogs_2.png" title="VUELVE LA VISA PARA VIAJAR A LONDRES" text="" />
           <CardBlog img="blogs_3.png" title="TOP 3 DESTINOS EN COLOMBIA" text="" />
         </div>
+      </section>
+      <section className="bg-gray-200">
+        <h2> Diseña tu viaje </h2>
+        <h3> AQUÍ COMIENZA TU EXPERIENCIA </h3>
+        <p> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
+        <Form></Form>
       </section>
 
     </div>
