@@ -20,7 +20,7 @@ const InfoCard : React.FC<infoCardProps> = ({className, img, status, title, date
                 <p className="text-[var(--main-color)] text-center font-bold px-4">{date} | {price}</p>
                 <p className="text-center px-4 pb-4">{description}</p>
             </div>
-            <button className="block relative w-full m-auto mt-[-1rem] pb-4 pt-8 mb-2 rounded-b-2xl font-extrabold text-white underline text-xl bg-[var(--main-color)]"> Más información </button>
+            <button className="cursor-pointer block relative w-full m-auto mt-[-1rem] pb-4 pt-8 mb-2 rounded-b-2xl font-extrabold text-white underline text-xl bg-[var(--main-color)]"> Más información </button>
         </div>
     );
 }

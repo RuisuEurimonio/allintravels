@@ -81,13 +81,13 @@ function App() {
         </div>
       </section>
       <hr className="border-[var(--main-color)] w-[90%] m-auto"/>
-      <section>
+      <section className="w-[90%] m-auto relative">
         <h2 className="text-[var(--main-color)] font-extrabold text-center text-4xl my-4 tracking-[.5rem]"> Experiencias grupales. </h2>
         <div className="flex flex-col gap-2 items-center
-          sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4
-          md:justify-center md:gap-12
+          sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4 
+          md:justify-around md:gap-12
         ">
-        <FaArrowAltCircleLeft  size={50} className="text-[var(--main-color)]" />
+        <FaArrowAltCircleLeft  size={50} className="text-[var(--main-color)] absolute left-[-25px] hidden size-7 lg:block xl:size-10" />
         <InfoCard className="flex-1" date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
           price="DESDE 5.500 USD"
           title="SAFARI (ÁFRICA)"
@@ -103,7 +103,35 @@ function App() {
           title="EGIPTO: MÍSTICO Y MAJESTUOSO"
           img="/src/assets/exp_grupales_3.png"
         />
-        <FaArrowAltCircleRight size={50} className="text-[var(--main-color)]"/>
+        <FaArrowAltCircleRight size={50} className="text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"/>
+        </div>
+      </section>
+
+      <section className="my-8 w-[85%]
+                      sm:mx-auto
+      ">
+        <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.1rem]
+                      sm:text-2xl sm:tracking-[.6rem]
+        "> EXPERIENCIAS PERSONALIZADAS </h2>
+        <div className="flex flex-col items-center
+                      sm:flex-row sm:w-[90%] sm:m-auto sm:gap-6
+                      md:gap-15 md:justify-around md:w-full 
+        ">
+          <img src="/src/assets/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
+                    md:w-80 md:h-100
+          "/> 
+          <div className="w-[90%] m-auto">
+            <h3 className="font-bold text-center
+                          sm:text-start
+            "> ¿QUÉ NOS HACE DIFERENTES? </h3>
+            <p className="text-justify
+                          lg:text-xl
+                          xl:text-2xl
+            "> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+            <button className="bg-[var(--main-color)] py-3 block m-auto mt-2 px-6 uppercase font-bold text-sm rounded-md text-white
+                          sm:mx-0
+            "> Cotizar mi viaje. </button>
+          </div>
         </div>
       </section>
     </div>
