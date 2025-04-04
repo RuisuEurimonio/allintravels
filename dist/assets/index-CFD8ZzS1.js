@@ -51,7 +51,7 @@ Error generating stack: `+a.message+`
         `,children:[r.jsx("h2",{className:"font-bold",children:"All In Travels."}),r.jsx(Wo,{size:24,onClick:()=>T()})]}),r.jsxs("header",{className:`absolute top-0 left-0 w-full bg-blue-100 h-screen flex flex-col items-center gap-10 z-50 justify-center ${g?"translate-y-0":"-translate-y-[100vh]"} 
           transition-transform duration-500 ease-in-out 
           md:flex md:top-7 md:h-auto md:translate-0 md:flex-row md:justify-between md:py-2 md:bg-transparent md:px-10
-        `,children:[r.jsx($o,{className:"absolute right-0 top-0 font-medium px-2 md:hidden",size:34,values:"X",onClick:()=>T()}),r.jsx("img",{src:"/logo.png",className:`object-cover max-w-50\r
+        `,children:[r.jsx($o,{className:"absolute right-0 top-0 font-medium px-2 md:hidden",size:34,values:"X",onClick:()=>T()}),r.jsx("img",{src:"/allintravels/logo.png",className:`object-cover max-w-50\r
                 md:max-w-40\r
             `}),r.jsxs("ul",{className:`flex flex-col gap-4 text-center text-base\r
                 md:flex-row md:gap-16\r
