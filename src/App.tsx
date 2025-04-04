@@ -4,7 +4,7 @@ import { TiSocialInstagram } from "react-icons/ti"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
 import InfoCard from "./components/InfoCard"
 import CardBlog from "./components/CardBlog"
-import Form from "./components/form"
+import Form from "./components/Form"
 
 function App() {
   
@@ -155,7 +155,43 @@ function App() {
         <p className="text-justify"> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
         <Form/>
       </section>
-
+      <section className="my-4">
+        <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl"> ALIANZAS ESTRATÉGICAS </h2>
+        <ul className="flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto">
+          <li className="w-28">
+            <img src="src/assets/logo7.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo6.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo5.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo4.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo3.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo2.png" alt="" />
+          </li>
+          <li className="w-28">
+            <img src="src/assets/logo1.png" alt="" />
+          </li>
+        </ul>
+      </section>
+      <section className="bg-[var(--secondary-color)] pt-4">
+        <h2 className="text-white text-center"> Suscríbete a nuestro newsletter y recibe noticias, descuentos y más </h2>
+        <div className="flex justify-center">
+          <input type="email" className="bg-white py-1 w-11/12 
+                                          sm:w-9/12
+                                          md:w-7/12
+                                          lg:w-5/12
+          " />
+        </div>
+        <button className="bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white"> Suscribirme </button>
+      </section>
     </div>
   )
 }
