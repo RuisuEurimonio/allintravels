@@ -51,14 +51,14 @@ Error generating stack: `+a.message+`
         `,children:[r.jsx("h2",{className:"font-bold",children:"All In Travels."}),r.jsx(Wo,{size:24,onClick:()=>T()})]}),r.jsxs("header",{className:`absolute top-0 left-0 w-full bg-blue-100 h-screen flex flex-col items-center gap-10 z-50 justify-center ${g?"translate-y-0":"-translate-y-[100vh]"} 
           transition-transform duration-500 ease-in-out 
           md:flex md:top-7 md:h-auto md:translate-0 md:flex-row md:justify-between md:py-2 md:bg-transparent md:px-10
-        `,children:[r.jsx($o,{className:"absolute right-0 top-0 font-medium px-2 md:hidden",size:34,values:"X",onClick:()=>T()}),r.jsx("img",{src:"/assets/img/logo.png",className:`object-cover max-w-50\r
+        `,children:[r.jsx($o,{className:"absolute right-0 top-0 font-medium px-2 md:hidden",size:34,values:"X",onClick:()=>T()}),r.jsx("img",{src:"/logo.png",className:`object-cover max-w-50\r
                 md:max-w-40\r
             `}),r.jsxs("ul",{className:`flex flex-col gap-4 text-center text-base\r
                 md:flex-row md:gap-16\r
                 2xl:gap-36\r
             `,children:[r.jsx("li",{className:"font-bold",children:" Inicio. "}),r.jsx("li",{children:" Nosotros "}),r.jsx("li",{children:" Viajes "}),r.jsx("li",{children:" Blogs "}),r.jsx("li",{children:" Contacto "})]})]})]})}function Fo(g){return Te({attr:{version:"1.2",baseProfile:"tiny",viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M18 3h-12c-1.7 0-3 1.3-3 3v12c0 1.7 1.3 3 3 3h12c1.7 0 3-1.3 3-3v-12c0-1.7-1.3-3-3-3zm-6 6c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zm3.8-2c0-.7.6-1.2 1.2-1.2s1.2.6 1.2 1.2-.5 1.2-1.2 1.2-1.2-.5-1.2-1.2zm2.2 12h-12c-.6 0-1-.4-1-1v-6h2c0 2.8 2.2 5 5 5s5-2.2 5-5h2v6c0 .6-.4 1-1 1z"},child:[]}]})(g)}const uf=({className:g,img:O,status:T,title:o,date:R,price:w,description:el})=>{let fl="bg-[var(--main-color)]";return T==="AGOTADO"?fl="bg-red-600":T==="CUPOS DISPONIBLES"&&(fl="bg-green-600"),r.jsxs("div",{className:` ${g} max-w-[25rem] w-[90%`,children:[r.jsxs("div",{className:`info-card ${T} rounded-2xl w-full m-auto shadow-2xl relative z-10 bg-white`,children:[r.jsx("img",{src:O,alt:o,className:"w-full object-cover"}),r.jsxs("p",{className:`${fl} text-center text-white font-bold`,children:[" ",T," "]}),r.jsx("h2",{className:"mt-3 text-center font-extrabold",children:o}),r.jsxs("p",{className:"text-[var(--main-color)] text-center font-bold px-4",children:[R," | ",w]}),r.jsx("p",{className:"text-center px-4 pb-4",children:el})]}),r.jsx("button",{className:"cursor-pointer block relative w-full m-auto mt-[-1rem] pb-4 pt-8 mb-2 rounded-b-2xl font-extrabold text-white underline text-xl bg-[var(--main-color)]",children:" Más información "})]})},nf=({img:g,title:O,className:T,text:o,link:R})=>r.jsxs("div",{className:`${T} w-full h-full bg-white rounded-sm p-3 relative
                         lg:p-8 lg:rounded-xl
-        `,children:[r.jsx("img",{src:`/src/assets/${g}`,className:"object-cover w-full",alt:"Blog Post"}),r.jsxs("div",{className:"card-blog-body",children:[r.jsxs("h3",{className:`font-bold my-2\r
+        `,children:[r.jsx("img",{src:`/${g}`,className:"object-cover w-full",alt:"Blog Post"}),r.jsxs("div",{className:"card-blog-body",children:[r.jsxs("h3",{className:`font-bold my-2\r
                                 lg:text-xl\r
                                 xl:text-2xl\r
                                 2xl:text-4xl\r
@@ -100,7 +100,7 @@ Error generating stack: `+a.message+`
                           xl:text-2xl mb-2\r
       `,name:"viajeIdeal"}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"button",className:"my-4 py-2 px-8 bg-[var(--main-color)] rounded-md uppercase text-white font-bold",value:"enviar"})})]})};function Io(){return r.jsxs("div",{className:"w-full overflow-hidden",children:[r.jsxs("header",{children:[r.jsx(ko,{}),r.jsx("div",{className:`text-center font-bold h-[50vh] 
           md:h-[85vh]
-        `,children:r.jsxs("div",{className:`bg-[url('/src/assets/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
+        `,children:r.jsxs("div",{className:`bg-[url('/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
             md:justify-emd md:pb-18
           `,children:[r.jsx("p",{className:`text-white text-4xl tracking-[.4rem]
               md:text-7xl md:tracking-[2rem]
@@ -108,11 +108,11 @@ Error generating stack: `+a.message+`
               md:tracking-[3rem] md:text-3xl
             `,children:"EXPERIENCE"}),r.jsxs("div",{className:`flex w-[300%] overflow-x-hidden custom-animation
               md:w-full md:gap-15 md:px-5 md:justify-center md:translate-y-10
-            `,children:[r.jsx(ef,{text:"Viajes grupales",img:"/src/assets/viajes_grupales.png",className:`w-[70vw] mx-[15vw]
+            `,children:[r.jsx(ef,{text:"Viajes grupales",img:"/viajes_grupales.png",className:`w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
-              `}),r.jsx(ef,{text:"Viajes a la medida",img:"/src/assets/viajes_a_la_medida.png",className:`w-[70vw] mx-[15vw]
+              `}),r.jsx(ef,{text:"Viajes a la medida",img:"/viajes_a_la_medida.png",className:`w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
-              `}),r.jsx(ef,{text:"Destinos para parejas",img:"/src/assets/destinos_para_parejas.png",className:`w-[70vw] mx-[15vw]
+              `}),r.jsx(ef,{text:"Destinos para parejas",img:"/destinos_para_parejas.png",className:`w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
               `})]})]})})]}),r.jsxs("section",{className:"pt-10",children:[r.jsx("h1",{className:`text-center text-2xl font-bold text-[var(--main-color)] tracking-[.5rem]
           md:text-5xl
@@ -123,16 +123,16 @@ Error generating stack: `+a.message+`
         xl:justify-center xl:w-auto
       `,children:[r.jsx("div",{className:`bg-[var(--main-color)] p-1 rounded-full flex items-center justify-center m-auto
           sm:mx-0
-        `,children:r.jsx(Fo,{size:30,color:"white"})}),r.jsxs("div",{className:"m-auto sm:mx-4",children:[r.jsx("img",{src:"/src/assets/nosotros_1.png",className:"sm:max-w-90"}),r.jsx("p",{className:"text-[var(--main-color)] floa",children:" @churroceballos "})]}),r.jsxs("ul",{className:`flex
+        `,children:r.jsx(Fo,{size:30,color:"white"})}),r.jsxs("div",{className:"m-auto sm:mx-4",children:[r.jsx("img",{src:"/nosotros_1.png",className:"sm:max-w-90"}),r.jsx("p",{className:"text-[var(--main-color)] floa",children:" @churroceballos "})]}),r.jsxs("ul",{className:`flex
             sm:overflow-x-hidden 
-        `,children:[r.jsx("li",{children:r.jsx("img",{src:"/src/assets/nosotros_2.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/src/assets/nosotros_3.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/src/assets/nosotros_4.png",className:"sm:max-w-90"})})]}),r.jsx("div",{className:`p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
+        `,children:[r.jsx("li",{children:r.jsx("img",{src:"/nosotros_2.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_3.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_4.png",className:"sm:max-w-90"})})]}),r.jsx("div",{className:`p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
           sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0 sm:flex-grow
         `,children:r.jsx(am,{size:30,color:"white",className:"hidden sm:block"})})]}),r.jsx("hr",{className:"border-[var(--main-color)] w-[90%] m-auto"}),r.jsxs("section",{className:"w-[90%] m-auto relative",children:[r.jsx("h2",{className:`text-[var(--main-color)] font-bold text-center text-4xl my-4 tracking-[.5rem] uppercase
                       2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]
         `,children:" Experiencias grupales. "}),r.jsxs("div",{className:`flex flex-col gap-2 items-center
           sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4 
           md:justify-around md:gap-12
-        `,children:[r.jsx(Ko,{size:50,className:"text-[var(--main-color)] absolute left-[-25px] hidden size-7 lg:block xl:size-10"}),r.jsx(uf,{className:"flex-1",date:"5 AL 15 DE ABRIL",status:"¡ÚLTIMOS CUPOS!",description:"Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana",price:"DESDE 5.500 USD",title:"SAFARI (ÁFRICA)",img:"/src/assets/exp_grupales_1.png"}),r.jsx(uf,{className:"flex-1",date:"30/04 - 11/05",status:"AGOTADO",description:"Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia.",price:"DESDE 2.700 USD",title:"JAPÓN: TRADICIÓN Y MODERNIDAD",img:"/src/assets/exp_grupales_2.png"}),r.jsx(uf,{className:"flex-1",date:"01 AL 08 DE ABRIL",status:"CUPOS DISPONIBLES",description:"El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo.",price:" DESDE 4.200 USD",title:"EGIPTO: MÍSTICO Y MAJESTUOSO",img:"/src/assets/exp_grupales_3.png"}),r.jsx(am,{size:50,className:"text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"})]})]}),r.jsxs("section",{className:`my-8 w-[85%] mx-auto
+        `,children:[r.jsx(Ko,{size:50,className:"text-[var(--main-color)] absolute left-[-25px] hidden size-7 lg:block xl:size-10"}),r.jsx(uf,{className:"flex-1",date:"5 AL 15 DE ABRIL",status:"¡ÚLTIMOS CUPOS!",description:"Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana",price:"DESDE 5.500 USD",title:"SAFARI (ÁFRICA)",img:"/exp_grupales_1.png"}),r.jsx(uf,{className:"flex-1",date:"30/04 - 11/05",status:"AGOTADO",description:"Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia.",price:"DESDE 2.700 USD",title:"JAPÓN: TRADICIÓN Y MODERNIDAD",img:"/exp_grupales_2.png"}),r.jsx(uf,{className:"flex-1",date:"01 AL 08 DE ABRIL",status:"CUPOS DISPONIBLES",description:"El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo.",price:" DESDE 4.200 USD",title:"EGIPTO: MÍSTICO Y MAJESTUOSO",img:"/exp_grupales_3.png"}),r.jsx(am,{size:50,className:"text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"})]})]}),r.jsxs("section",{className:`my-8 w-[85%] mx-auto
                       sm:mx-auto
       `,children:[r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.1rem]
                       sm:text-2xl sm:tracking-[.6rem]
@@ -141,7 +141,7 @@ Error generating stack: `+a.message+`
                       sm:flex-row sm:w-[90%] sm:m-auto sm:gap-6
                       md:gap-15 md:justify-around md:w-full 
                       xl:my-10
-        `,children:[r.jsx("img",{src:"/src/assets/exp_personalizadas.png",className:`object-cover w-60 h-80 mt-5
+        `,children:[r.jsx("img",{src:"/exp_personalizadas.png",className:`object-cover w-60 h-80 mt-5
                     md:w-80 md:h-100
                     2xl:w-120 2xl:h-160
           `}),r.jsxs("div",{className:"w-[90%] mx-auto",children:[r.jsx("h3",{className:`font-bold text-center py-3
@@ -174,7 +174,7 @@ Error generating stack: `+a.message+`
         `,children:" AQUÍ COMIENZA TU EXPERIENCIA "}),r.jsx("p",{className:`text-justify
                       md:text-xl
                       xl:text-3xl
-        `,children:" Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. "}),r.jsx(Po,{})]}),r.jsxs("section",{className:"my-4 relative",children:[r.jsx("img",{src:"src/assets/logo_WA.png",className:`absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
+        `,children:" Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. "}),r.jsx(Po,{})]}),r.jsxs("section",{className:"my-4 relative",children:[r.jsx("img",{src:"/logo_WA.png",className:`absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
                                                      sm:top-[-3rem]
                                                      lg:w-25 lg:right-[5rem]`}),r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl
                       lg:text-4xl lg:tracking-[1.2rem] lg:py-12
@@ -182,19 +182,19 @@ Error generating stack: `+a.message+`
                         lg:gap-10 lg:mb-15
         `,children:[r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo7.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo7.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo6.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo6.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo5.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo5.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo4.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo4.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo3.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo3.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo2.png",alt:""})}),r.jsx("li",{className:`w-28
+          `,children:r.jsx("img",{src:"/logo2.png",alt:""})}),r.jsx("li",{className:`w-28
                         lg:w-40
-          `,children:r.jsx("img",{src:"src/assets/logo1.png",alt:""})})]})]}),r.jsxs("section",{className:"bg-[var(--secondary-color)] py-4",children:[r.jsx("h2",{className:`text-white text-center
+          `,children:r.jsx("img",{src:"/logo1.png",alt:""})})]})]}),r.jsxs("section",{className:"bg-[var(--secondary-color)] py-4",children:[r.jsx("h2",{className:`text-white text-center
                         lg:text-3xl lg:mb-4
         `,children:" Suscríbete a nuestro newsletter y recibe noticias, descuentos y más "}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"email",className:`bg-white py-1 w-11/12 
                                           sm:w-10/12 sm:py-2
@@ -208,8 +208,8 @@ Error generating stack: `+a.message+`
                         2xl:gap-x-40
         `,children:[r.jsxs("li",{className:`w-8/12 mx-auto flex flex-col
                         md:w-2/12 md:mx-0
-          `,children:[r.jsx("img",{src:"src/assets/logo.png"}),r.jsx("img",{src:"src/assets/logos_redes.png"})]}),r.jsx("li",{children:r.jsxs("ul",{className:`flex flex-col items-center
+          `,children:[r.jsx("img",{src:"/logo.png"}),r.jsx("img",{src:"/logos_redes.png"})]}),r.jsx("li",{children:r.jsxs("ul",{className:`flex flex-col items-center
                     md:items-start
             `,children:[r.jsx("li",{children:" Inicio "}),r.jsx("li",{children:"¿Quienes somos?"}),r.jsx("li",{children:"Viajes grupales"}),r.jsx("li",{children:"Viajes a la medida"}),r.jsx("li",{children:"Contáctanos"}),r.jsx("li",{children:"Alianzas estratégicas"}),r.jsx("li",{children:"Blogs"}),r.jsx("li",{children:"Términos y condiciones"}),r.jsx("li",{children:"Política de privacidad"}),r.jsx("li",{children:"Registro Nacional de Turismo"})]})}),r.jsx("li",{className:"my-2",children:r.jsxs("ul",{className:`flex flex-col items-center
                           md:items-start
-            `,children:[r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"src/assets/icono_mail.png"})," ",r.jsx("span",{className:"",children:" info@allintravels.com "})," "]}),r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"src/assets/icono_telefono.png"})," ",r.jsx("span",{className:"",children:" 0057 (604) 444 45 83 "})," "]}),r.jsxs("li",{children:[" ",r.jsxs("p",{className:"flex",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"src/assets/icono_ubicacion.png"})," Carrera 43A # 18 Sur - 135 Of 834, "]})," ",r.jsx("p",{children:" Sao Paulo Plaza Medellín - Colombia."})," "]})]})})]})})]})}Co.createRoot(document.getElementById("root")).render(r.jsx(Qn.StrictMode,{children:r.jsx(Io,{})}));
+            `,children:[r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_mail.png"})," ",r.jsx("span",{className:"",children:" info@allintravels.com "})," "]}),r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_telefono.png"})," ",r.jsx("span",{className:"",children:" 0057 (604) 444 45 83 "})," "]}),r.jsxs("li",{children:[" ",r.jsxs("p",{className:"flex",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_ubicacion.png"})," Carrera 43A # 18 Sur - 135 Of 834, "]})," ",r.jsx("p",{children:" Sao Paulo Plaza Medellín - Colombia."})," "]})]})})]})})]})}Co.createRoot(document.getElementById("root")).render(r.jsx(Qn.StrictMode,{children:r.jsx(Io,{})}));
