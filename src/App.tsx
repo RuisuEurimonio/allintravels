@@ -156,7 +156,7 @@ function App() {
         <Form/>
       </section>
       <section className="my-4 relative">
-        <img src="src/assets/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
+      <img src="src/assets/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
                                                      sm:top-[-3rem] " />
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl"> ALIANZAS ESTRATÉGICAS </h2>
         <ul className="flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto">
@@ -183,7 +183,7 @@ function App() {
           </li>
         </ul>
       </section>
-      <section className="bg-[var(--secondary-color)] pt-4">
+      <section className="bg-[var(--secondary-color)] py-4">
         <h2 className="text-white text-center"> Suscríbete a nuestro newsletter y recibe noticias, descuentos y más </h2>
         <div className="flex justify-center">
           <input type="email" className="bg-white py-1 w-11/12 
@@ -194,8 +194,44 @@ function App() {
         </div>
         <button className="bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white"> Suscribirme </button>
       </section>
-      <footer>
-
+      <footer className="py-4 w-11/12 mx-auto">
+        <ul className="flex flex-col items-center
+                        md:flex-row md:flex-wrap md:gap-x-10 md:items-start md:py-10 md:justify-normal md:ml-5
+                        lg:gap-x-25 lg:ml-15
+                        2xl:gap-x-40
+        ">
+          <li className="w-8/12 mx-auto flex flex-col
+                        md:w-2/12 md:mx-0
+          ">
+            <img src="src/assets/logo.png" />
+            <img src="src/assets/logos_redes.png" />
+          </li>
+          <li>
+            <ul className="flex flex-col items-center
+                    md:items-start
+            ">
+              <li> Inicio </li>
+              <li>¿Quienes somos?</li>
+              <li>Viajes grupales</li>
+              <li>Viajes a la medida</li>
+              <li>Contáctanos</li>
+              <li>Alianzas estratégicas</li>
+              <li>Blogs</li>
+              <li>Términos y condiciones</li>
+              <li>Política de privacidad</li>
+              <li>Registro Nacional de Turismo</li>
+            </ul>
+          </li>
+          <li className="my-2">
+            <ul className="flex flex-col items-center
+                          md:items-start
+            ">
+              <li className="flex "> <img className="size-5 mr-2" src="src/assets/icono_mail.png" /> <span className=""> info@allintravels.com </span> </li>
+              <li className="flex "> <img className="size-5 mr-2" src="src/assets/icono_telefono.png" /> <span className=""> 0057 (604) 444 45 83 </span> </li>
+              <li> <p className="flex"> <img className="size-5 mr-2" src="src/assets/icono_ubicacion.png" /> Carrera 43A # 18 Sur - 135 Of 834, </p> <p> Sao Paulo Plaza Medellín - Colombia.</p> </li>
+            </ul>
+          </li>
+        </ul>
       </footer>
     </div>
   )
