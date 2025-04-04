@@ -162,51 +162,82 @@ function App() {
       </section>
       <section className="bg-gray-200 px-[5%]
                       md:px-[10%]
-                      xl:px-[25%]
+                      xl:px-[15%]
       ">
-        <h2 className="text-[var(--main-color)] font-bold tracking-[.3rem] text-center text-2xl uppercase py-5"> Diseña tu viaje </h2>
-        <h3 className="font-bold"> AQUÍ COMIENZA TU EXPERIENCIA </h3>
-        <p className="text-justify"> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
+        <h2 className="text-[var(--main-color)] font-bold tracking-[.3rem] text-center text-2xl uppercase py-5
+                      lg:text-4xl lg:tracking-[1.2rem] lg:py-15
+        "> Diseña tu viaje </h2>
+        <h3 className="font-bold py-2
+                      md:text-xl md:py-5
+                      xl:text-3xl xl:py-8
+        "> AQUÍ COMIENZA TU EXPERIENCIA </h3>
+        <p className="text-justify
+                      md:text-xl
+                      xl:text-3xl
+        "> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
         <Form/>
       </section>
       <section className="my-4 relative">
       <img src="src/assets/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
-                                                     sm:top-[-3rem] " />
-        <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl"> ALIANZAS ESTRATÉGICAS </h2>
-        <ul className="flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto">
-          <li className="w-28">
+                                                     sm:top-[-3rem]
+                                                     lg:w-25 lg:right-[5rem]" />
+        <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl
+                      lg:text-4xl lg:tracking-[1.2rem] lg:py-12
+        "> ALIANZAS ESTRATÉGICAS </h2>
+        <ul className="flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto
+                        lg:gap-10 lg:mb-15
+        ">  
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo7.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo6.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo5.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo4.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo3.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo2.png" alt="" />
           </li>
-          <li className="w-28">
+          <li className="w-28
+                        lg:w-40
+          ">
             <img src="src/assets/logo1.png" alt="" />
           </li>
         </ul>
       </section>
       <section className="bg-[var(--secondary-color)] py-4">
-        <h2 className="text-white text-center"> Suscríbete a nuestro newsletter y recibe noticias, descuentos y más </h2>
+        <h2 className="text-white text-center
+                        lg:text-3xl lg:mb-4
+        "> Suscríbete a nuestro newsletter y recibe noticias, descuentos y más </h2>
         <div className="flex justify-center">
           <input type="email" className="bg-white py-1 w-11/12 
-                                          sm:w-9/12
-                                          md:w-7/12
-                                          lg:w-5/12
+                                          sm:w-10/12 sm:py-2
+                                          md:w-8/12 md:py-4
+                                          lg:w-7/12
           " />
         </div>
-        <button className="bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white"> Suscribirme </button>
+        <button className="bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white
+                          md:mt-10 md:mb-12 md:text-2xl
+        "> Suscribirme </button>
       </section>
       <footer className="py-4 w-11/12 mx-auto">
         <ul className="flex flex-col items-center
