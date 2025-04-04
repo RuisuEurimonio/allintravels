@@ -146,11 +146,11 @@ function App() {
           <CardBlog img="blogs_3.png" title="TOP 3 DESTINOS EN COLOMBIA" text="" />
         </div>
       </section>
-      <section className="bg-gray-200">
-        <h2> Diseña tu viaje </h2>
-        <h3> AQUÍ COMIENZA TU EXPERIENCIA </h3>
-        <p> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
-        <Form></Form>
+      <section className="bg-gray-200 px-[5%]">
+        <h2 className="text-[var(--main-color)] font-bold tracking-[.3rem] text-center text-2xl uppercase py-5"> Diseña tu viaje </h2>
+        <h3 className="font-bold"> AQUÍ COMIENZA TU EXPERIENCIA </h3>
+        <p className="text-justify"> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
+        <Form/>
       </section>
 
     </div>
