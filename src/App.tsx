@@ -59,20 +59,20 @@ function App() {
           <TiSocialInstagram size={30} color="white"/>
         </div>
         <div className="m-auto sm:mx-4">
-          <img src="/nosotros_1.png" className="sm:max-w-90"/>
+          <img src="/allintravels/nosotros_1.png" className="sm:max-w-90"/>
           <p className="text-[var(--main-color)] floa"> @churroceballos </p>
         </div>
         <ul className="flex
             sm:overflow-x-hidden 
         ">
           <li>
-            <img src="/nosotros_2.png" className="sm:max-w-90"></img>
+            <img src="/allintravels/nosotros_2.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/nosotros_3.png" className="sm:max-w-90"></img>
+            <img src="/allintravels/nosotros_3.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/nosotros_4.png" className="sm:max-w-90"></img>
+            <img src="/allintravels/nosotros_4.png" className="sm:max-w-90"></img>
           </li>
         </ul>
         <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
@@ -122,7 +122,7 @@ function App() {
                       md:gap-15 md:justify-around md:w-full 
                       xl:my-10
         ">
-          <img src="/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
+          <img src="/allintravels/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
                     md:w-80 md:h-100
                     2xl:w-120 2xl:h-160
           "/> 
@@ -178,7 +178,7 @@ function App() {
         <Form/>
       </section>
       <section className="my-4 relative">
-      <img src="/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
+      <img src="/allintravels/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
                                                      sm:top-[-3rem]
                                                      lg:w-25 lg:right-[5rem]" />
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl
@@ -190,37 +190,37 @@ function App() {
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo7.png" alt="" />
+            <img src="/allintravels/logo7.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo6.png" alt="" />
+            <img src="/allintravels/logo6.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo5.png" alt="" />
+            <img src="/allintravels/logo5.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo4.png" alt="" />
+            <img src="/allintravels/logo4.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo3.png" alt="" />
+            <img src="/allintravels/logo3.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo2.png" alt="" />
+            <img src="/allintravels/logo2.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="/logo1.png" alt="" />
+            <img src="/allintravels/logo1.png" alt="" />
           </li>
         </ul>
       </section>
@@ -248,8 +248,8 @@ function App() {
           <li className="w-8/12 mx-auto flex flex-col
                         md:w-2/12 md:mx-0
           ">
-            <img src="/logo.png" />
-            <img src="/logos_redes.png" />
+            <img src="/allintravels/logo.png" />
+            <img src="/allintravels/logos_redes.png" />
           </li>
           <li>
             <ul className="flex flex-col items-center
@@ -271,9 +271,9 @@ function App() {
             <ul className="flex flex-col items-center
                           md:items-start
             ">
-              <li className="flex "> <img className="size-5 mr-2" src="/icono_mail.png" /> <span className=""> info@allintravels.com </span> </li>
-              <li className="flex "> <img className="size-5 mr-2" src="/icono_telefono.png" /> <span className=""> 0057 (604) 444 45 83 </span> </li>
-              <li> <p className="flex"> <img className="size-5 mr-2" src="/icono_ubicacion.png" /> Carrera 43A # 18 Sur - 135 Of 834, </p> <p> Sao Paulo Plaza Medellín - Colombia.</p> </li>
+              <li className="flex "> <img className="size-5 mr-2" src="/allintravels/icono_mail.png" /> <span className=""> info@allintravels.com </span> </li>
+              <li className="flex "> <img className="size-5 mr-2" src="/allintravels/icono_telefono.png" /> <span className=""> 0057 (604) 444 45 83 </span> </li>
+              <li> <p className="flex"> <img className="size-5 mr-2" src="/allintravels/icono_ubicacion.png" /> Carrera 43A # 18 Sur - 135 Of 834, </p> <p> Sao Paulo Plaza Medellín - Colombia.</p> </li>
             </ul>
           </li>
         </ul>
