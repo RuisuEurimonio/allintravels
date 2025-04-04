@@ -98,118 +98,118 @@ Error generating stack: `+a.message+`
                               xl:text-2xl mb-2\r
             `,children:" ADULTOS: "}),r.jsx("input",{className:"bg-white py-1 w-2/3",type:"number",name:"adultos"})]})]}),r.jsx("p",{className:"xl:text-2xl mb-2",children:" TU VIAJE IDEAL... "}),r.jsx("textarea",{className:`bg-white w-full\r
                           xl:text-2xl mb-2\r
-      `,name:"viajeIdeal"}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"button",className:"my-4 py-2 px-8 bg-[var(--main-color)] rounded-md uppercase text-white font-bold",value:"enviar"})})]})};function Io(){return r.jsxs("div",{className:"w-full overflow-hidden",children:[r.jsxs("header",{children:[r.jsx(ko,{}),r.jsx("div",{className:`text-center font-bold h-[50vh] 
-          md:h-[85vh]
-        `,children:r.jsxs("div",{className:`bg-[url('/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
-            md:justify-emd md:pb-18
-          `,children:[r.jsx("p",{className:`text-white text-4xl tracking-[.4rem]
-              md:text-7xl md:tracking-[2rem]
-            `,children:"THE TRAVEL"}),r.jsx("h2",{className:`text-[var(--main-color)] tracking-[1rem]
-              md:tracking-[3rem] md:text-3xl
-            `,children:"EXPERIENCE"}),r.jsxs("div",{className:`flex w-[300%] overflow-x-hidden custom-animation
-              md:w-full md:gap-15 md:px-5 md:justify-center md:translate-y-10
-            `,children:[r.jsx(ef,{text:"Viajes grupales",img:"/viajes_grupales.png",className:`w-[70vw] mx-[15vw]
-                md:max-w-[25rem] md:mx-0
-              `}),r.jsx(ef,{text:"Viajes a la medida",img:"/viajes_a_la_medida.png",className:`w-[70vw] mx-[15vw]
-                md:max-w-[25rem] md:mx-0
-              `}),r.jsx(ef,{text:"Destinos para parejas",img:"/destinos_para_parejas.png",className:`w-[70vw] mx-[15vw]
-                md:max-w-[25rem] md:mx-0
-              `})]})]})})]}),r.jsxs("section",{className:"pt-10",children:[r.jsx("h1",{className:`text-center text-2xl font-bold text-[var(--main-color)] tracking-[.5rem]
-          md:text-5xl
-        `,children:" Nosotros "}),r.jsx("p",{className:`text-justify w-[80vw] mx-auto
-          md:py-10 md:w-[70vw] md:text-2xl
-        `,children:" Un copy cercano como hablandole a un amigo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  "})]}),r.jsxs("section",{className:`w-[90vw] m-auto flex flex-col items gap-1
-        sm:flex-row sm:w-[200%] sm:ml-10 sm:justify-start sm:m-0 sm:relative
-        xl:justify-center xl:w-auto
-      `,children:[r.jsx("div",{className:`bg-[var(--main-color)] p-1 rounded-full flex items-center justify-center m-auto
-          sm:mx-0
-        `,children:r.jsx(Fo,{size:30,color:"white"})}),r.jsxs("div",{className:"m-auto sm:mx-4",children:[r.jsx("img",{src:"/nosotros_1.png",className:"sm:max-w-90"}),r.jsx("p",{className:"text-[var(--main-color)] floa",children:" @churroceballos "})]}),r.jsxs("ul",{className:`flex
-            sm:overflow-x-hidden 
-        `,children:[r.jsx("li",{children:r.jsx("img",{src:"/nosotros_2.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_3.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_4.png",className:"sm:max-w-90"})})]}),r.jsx("div",{className:`p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
-          sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0 sm:flex-grow
-        `,children:r.jsx(am,{size:30,color:"white",className:"hidden sm:block"})})]}),r.jsx("hr",{className:"border-[var(--main-color)] w-[90%] m-auto"}),r.jsxs("section",{className:"w-[90%] m-auto relative",children:[r.jsx("h2",{className:`text-[var(--main-color)] font-bold text-center text-4xl my-4 tracking-[.5rem] uppercase
-                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]
-        `,children:" Experiencias grupales. "}),r.jsxs("div",{className:`flex flex-col gap-2 items-center
-          sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4 
-          md:justify-around md:gap-12
-        `,children:[r.jsx(Ko,{size:50,className:"text-[var(--main-color)] absolute left-[-25px] hidden size-7 lg:block xl:size-10"}),r.jsx(uf,{className:"flex-1",date:"5 AL 15 DE ABRIL",status:"¡ÚLTIMOS CUPOS!",description:"Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana",price:"DESDE 5.500 USD",title:"SAFARI (ÁFRICA)",img:"/exp_grupales_1.png"}),r.jsx(uf,{className:"flex-1",date:"30/04 - 11/05",status:"AGOTADO",description:"Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia.",price:"DESDE 2.700 USD",title:"JAPÓN: TRADICIÓN Y MODERNIDAD",img:"/exp_grupales_2.png"}),r.jsx(uf,{className:"flex-1",date:"01 AL 08 DE ABRIL",status:"CUPOS DISPONIBLES",description:"El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo.",price:" DESDE 4.200 USD",title:"EGIPTO: MÍSTICO Y MAJESTUOSO",img:"/exp_grupales_3.png"}),r.jsx(am,{size:50,className:"text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"})]})]}),r.jsxs("section",{className:`my-8 w-[85%] mx-auto
-                      sm:mx-auto
-      `,children:[r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.1rem]
-                      sm:text-2xl sm:tracking-[.6rem]
-                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]
-        `,children:" EXPERIENCIAS PERSONALIZADAS "}),r.jsxs("div",{className:`flex flex-col items-center
-                      sm:flex-row sm:w-[90%] sm:m-auto sm:gap-6
-                      md:gap-15 md:justify-around md:w-full 
-                      xl:my-10
-        `,children:[r.jsx("img",{src:"/exp_personalizadas.png",className:`object-cover w-60 h-80 mt-5
-                    md:w-80 md:h-100
-                    2xl:w-120 2xl:h-160
-          `}),r.jsxs("div",{className:"w-[90%] mx-auto",children:[r.jsx("h3",{className:`font-bold text-center py-3
-                          sm:text-start
-                          md:text-2xl
-                          xl:text-4xl
-                          2xl:text-5xl
-            `,children:" ¿QUÉ NOS HACE DIFERENTES? "}),r.jsx("p",{className:`text-justify
-                          lg:text-xl
-                          xl:text-2xl
-                          2xl:text-4xl
-            `,children:" Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. "}),r.jsx("button",{className:`bg-[var(--main-color)] py-3 block m-auto mt-2 px-6 uppercase font-bold text-sm rounded-md text-white
-                          sm:mx-0
-                          lg:text-2xl lg:mt-8
-                          xl:text-3xl
-                          2xl:text-4xl
-            `,children:" Cotizar mi viaje. "})]})]})]}),r.jsxs("section",{className:"bg-[var(--main-color)] py-3",children:[r.jsx("h2",{className:`text-white text-2xl uppercase text-center font-bold tracking-[1rem] my-4
-                      lg:text-4xl lg:mt-7 lg:mb-20
-        `,children:" Blogs "}),r.jsxs("div",{className:`w-[90%] mx-auto grid gap-4
-                        md:grid-flow-col md:grid-rows-2 md:w-[85%] md:gap-10
-                        xl:w-[75%]
-        `,children:[r.jsx(nf,{className:"row-span-2",img:"blogs_1.png",title:"DESTINOS PARA PAREJAS EN 2025",text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam..."}),r.jsx(nf,{img:"blogs_2.png",title:"VUELVE LA VISA PARA VIAJAR A LONDRES",text:""}),r.jsx(nf,{img:"blogs_3.png",title:"TOP 3 DESTINOS EN COLOMBIA",text:""})]})]}),r.jsxs("section",{className:`bg-gray-200 px-[5%]
-                      md:px-[10%]
-                      xl:px-[15%]
-      `,children:[r.jsx("h2",{className:`text-[var(--main-color)] font-bold tracking-[.3rem] text-center text-2xl uppercase py-5
-                      lg:text-4xl lg:tracking-[1.2rem] lg:py-15
-        `,children:" Diseña tu viaje "}),r.jsx("h3",{className:`font-bold py-2
-                      md:text-xl md:py-5
-                      xl:text-3xl xl:py-8
-        `,children:" AQUÍ COMIENZA TU EXPERIENCIA "}),r.jsx("p",{className:`text-justify
-                      md:text-xl
-                      xl:text-3xl
-        `,children:" Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. "}),r.jsx(Po,{})]}),r.jsxs("section",{className:"my-4 relative",children:[r.jsx("img",{src:"/logo_WA.png",className:`absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
-                                                     sm:top-[-3rem]
-                                                     lg:w-25 lg:right-[5rem]`}),r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl
-                      lg:text-4xl lg:tracking-[1.2rem] lg:py-12
-        `,children:" ALIANZAS ESTRATÉGICAS "}),r.jsxs("ul",{className:`flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto
-                        lg:gap-10 lg:mb-15
-        `,children:[r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo7.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo6.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo5.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo4.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo3.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo2.png",alt:""})}),r.jsx("li",{className:`w-28
-                        lg:w-40
-          `,children:r.jsx("img",{src:"/logo1.png",alt:""})})]})]}),r.jsxs("section",{className:"bg-[var(--secondary-color)] py-4",children:[r.jsx("h2",{className:`text-white text-center
-                        lg:text-3xl lg:mb-4
-        `,children:" Suscríbete a nuestro newsletter y recibe noticias, descuentos y más "}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"email",className:`bg-white py-1 w-11/12 
-                                          sm:w-10/12 sm:py-2
-                                          md:w-8/12 md:py-4
-                                          lg:w-7/12
-          `})}),r.jsx("button",{className:`bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white
-                          md:mt-10 md:mb-12 md:text-2xl
-        `,children:" Suscribirme "})]}),r.jsx("footer",{className:"py-4 w-11/12 mx-auto",children:r.jsxs("ul",{className:`flex flex-col items-center
-                        md:flex-row md:flex-wrap md:gap-x-10 md:items-start md:py-10 md:justify-normal md:ml-5
-                        lg:gap-x-25 lg:ml-15
-                        2xl:gap-x-40
-        `,children:[r.jsxs("li",{className:`w-8/12 mx-auto flex flex-col
-                        md:w-2/12 md:mx-0
-          `,children:[r.jsx("img",{src:"/logo.png"}),r.jsx("img",{src:"/logos_redes.png"})]}),r.jsx("li",{children:r.jsxs("ul",{className:`flex flex-col items-center
-                    md:items-start
-            `,children:[r.jsx("li",{children:" Inicio "}),r.jsx("li",{children:"¿Quienes somos?"}),r.jsx("li",{children:"Viajes grupales"}),r.jsx("li",{children:"Viajes a la medida"}),r.jsx("li",{children:"Contáctanos"}),r.jsx("li",{children:"Alianzas estratégicas"}),r.jsx("li",{children:"Blogs"}),r.jsx("li",{children:"Términos y condiciones"}),r.jsx("li",{children:"Política de privacidad"}),r.jsx("li",{children:"Registro Nacional de Turismo"})]})}),r.jsx("li",{className:"my-2",children:r.jsxs("ul",{className:`flex flex-col items-center
-                          md:items-start
+      `,name:"viajeIdeal"}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"button",className:"my-4 py-2 px-8 bg-[var(--main-color)] rounded-md uppercase text-white font-bold",value:"enviar"})})]})};function Io(){return r.jsxs("div",{className:"w-full overflow-hidden",children:[r.jsxs("header",{children:[r.jsx(ko,{}),r.jsx("div",{className:`text-center font-bold h-[50vh] \r
+          md:h-[85vh]\r
+        `,children:r.jsxs("div",{className:`bg-[url('/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10\r
+            md:justify-emd md:pb-18\r
+          `,children:[r.jsx("p",{className:`text-white text-4xl tracking-[.4rem]\r
+              md:text-7xl md:tracking-[2rem]\r
+            `,children:"THE TRAVEL"}),r.jsx("h2",{className:`text-[var(--main-color)] tracking-[1rem]\r
+              md:tracking-[3rem] md:text-3xl\r
+            `,children:"EXPERIENCE"}),r.jsxs("div",{className:`flex w-[300%] overflow-x-hidden custom-animation\r
+              md:w-full md:gap-15 md:px-5 md:justify-center md:translate-y-10\r
+            `,children:[r.jsx(ef,{text:"Viajes grupales",img:"/viajes_grupales.png",className:`w-[70vw] mx-[15vw]\r
+                md:max-w-[25rem] md:mx-0\r
+              `}),r.jsx(ef,{text:"Viajes a la medida",img:"/viajes_a_la_medida.png",className:`w-[70vw] mx-[15vw]\r
+                md:max-w-[25rem] md:mx-0\r
+              `}),r.jsx(ef,{text:"Destinos para parejas",img:"/destinos_para_parejas.png",className:`w-[70vw] mx-[15vw]\r
+                md:max-w-[25rem] md:mx-0\r
+              `})]})]})})]}),r.jsxs("section",{className:"pt-10",children:[r.jsx("h1",{className:`text-center text-2xl font-bold text-[var(--main-color)] tracking-[.5rem]\r
+          md:text-5xl\r
+        `,children:" Nosotros "}),r.jsx("p",{className:`text-justify w-[80vw] mx-auto\r
+          md:py-10 md:w-[70vw] md:text-2xl\r
+        `,children:" Un copy cercano como hablandole a un amigo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  "})]}),r.jsxs("section",{className:`w-[90vw] m-auto flex flex-col items gap-1\r
+        sm:flex-row sm:w-[200%] sm:ml-10 sm:justify-start sm:m-0 sm:relative\r
+        xl:justify-center xl:w-auto\r
+      `,children:[r.jsx("div",{className:`bg-[var(--main-color)] p-1 rounded-full flex items-center justify-center m-auto\r
+          sm:mx-0\r
+        `,children:r.jsx(Fo,{size:30,color:"white"})}),r.jsxs("div",{className:"m-auto sm:mx-4",children:[r.jsx("img",{src:"/nosotros_1.png",className:"sm:max-w-90"}),r.jsx("p",{className:"text-[var(--main-color)] floa",children:" @churroceballos "})]}),r.jsxs("ul",{className:`flex\r
+            sm:overflow-x-hidden \r
+        `,children:[r.jsx("li",{children:r.jsx("img",{src:"/nosotros_2.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_3.png",className:"sm:max-w-90"})}),r.jsx("li",{children:r.jsx("img",{src:"/nosotros_4.png",className:"sm:max-w-90"})})]}),r.jsx("div",{className:`p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto\r
+          sm:absolute sm:z-50 sm:left-[80vw] sm:top-0 sm:bottom-0 sm:flex-grow\r
+        `,children:r.jsx(am,{size:30,color:"white",className:"hidden sm:block"})})]}),r.jsx("hr",{className:"border-[var(--main-color)] w-[90%] m-auto"}),r.jsxs("section",{className:"w-[90%] m-auto relative",children:[r.jsx("h2",{className:`text-[var(--main-color)] font-bold text-center text-4xl my-4 tracking-[.5rem] uppercase\r
+                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]\r
+        `,children:" Experiencias grupales. "}),r.jsxs("div",{className:`flex flex-col gap-2 items-center\r
+          sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4 \r
+          md:justify-around md:gap-12\r
+        `,children:[r.jsx(Ko,{size:50,className:"text-[var(--main-color)] absolute left-[-25px] hidden size-7 lg:block xl:size-10"}),r.jsx(uf,{className:"flex-1",date:"5 AL 15 DE ABRIL",status:"¡ÚLTIMOS CUPOS!",description:"Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana",price:"DESDE 5.500 USD",title:"SAFARI (ÁFRICA)",img:"/exp_grupales_1.png"}),r.jsx(uf,{className:"flex-1",date:"30/04 - 11/05",status:"AGOTADO",description:"Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia.",price:"DESDE 2.700 USD",title:"JAPÓN: TRADICIÓN Y MODERNIDAD",img:"/exp_grupales_2.png"}),r.jsx(uf,{className:"flex-1",date:"01 AL 08 DE ABRIL",status:"CUPOS DISPONIBLES",description:"El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo.",price:" DESDE 4.200 USD",title:"EGIPTO: MÍSTICO Y MAJESTUOSO",img:"/exp_grupales_3.png"}),r.jsx(am,{size:50,className:"text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"})]})]}),r.jsxs("section",{className:`my-8 w-[85%] mx-auto\r
+                      sm:mx-auto\r
+      `,children:[r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.1rem]\r
+                      sm:text-2xl sm:tracking-[.6rem]\r
+                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]\r
+        `,children:" EXPERIENCIAS PERSONALIZADAS "}),r.jsxs("div",{className:`flex flex-col items-center\r
+                      sm:flex-row sm:w-[90%] sm:m-auto sm:gap-6\r
+                      md:gap-15 md:justify-around md:w-full \r
+                      xl:my-10\r
+        `,children:[r.jsx("img",{src:"/exp_personalizadas.png",className:`object-cover w-60 h-80 mt-5\r
+                    md:w-80 md:h-100\r
+                    2xl:w-120 2xl:h-160\r
+          `}),r.jsxs("div",{className:"w-[90%] mx-auto",children:[r.jsx("h3",{className:`font-bold text-center py-3\r
+                          sm:text-start\r
+                          md:text-2xl\r
+                          xl:text-4xl\r
+                          2xl:text-5xl\r
+            `,children:" ¿QUÉ NOS HACE DIFERENTES? "}),r.jsx("p",{className:`text-justify\r
+                          lg:text-xl\r
+                          xl:text-2xl\r
+                          2xl:text-4xl\r
+            `,children:" Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. "}),r.jsx("button",{className:`bg-[var(--main-color)] py-3 block m-auto mt-2 px-6 uppercase font-bold text-sm rounded-md text-white\r
+                          sm:mx-0\r
+                          lg:text-2xl lg:mt-8\r
+                          xl:text-3xl\r
+                          2xl:text-4xl\r
+            `,children:" Cotizar mi viaje. "})]})]})]}),r.jsxs("section",{className:"bg-[var(--main-color)] py-3",children:[r.jsx("h2",{className:`text-white text-2xl uppercase text-center font-bold tracking-[1rem] my-4\r
+                      lg:text-4xl lg:mt-7 lg:mb-20\r
+        `,children:" Blogs "}),r.jsxs("div",{className:`w-[90%] mx-auto grid gap-4\r
+                        md:grid-flow-col md:grid-rows-2 md:w-[85%] md:gap-10\r
+                        xl:w-[75%]\r
+        `,children:[r.jsx(nf,{className:"row-span-2",img:"blogs_1.png",title:"DESTINOS PARA PAREJAS EN 2025",text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam..."}),r.jsx(nf,{img:"blogs_2.png",title:"VUELVE LA VISA PARA VIAJAR A LONDRES",text:""}),r.jsx(nf,{img:"blogs_3.png",title:"TOP 3 DESTINOS EN COLOMBIA",text:""})]})]}),r.jsxs("section",{className:`bg-gray-200 px-[5%]\r
+                      md:px-[10%]\r
+                      xl:px-[15%]\r
+      `,children:[r.jsx("h2",{className:`text-[var(--main-color)] font-bold tracking-[.3rem] text-center text-2xl uppercase py-5\r
+                      lg:text-4xl lg:tracking-[1.2rem] lg:py-15\r
+        `,children:" Diseña tu viaje "}),r.jsx("h3",{className:`font-bold py-2\r
+                      md:text-xl md:py-5\r
+                      xl:text-3xl xl:py-8\r
+        `,children:" AQUÍ COMIENZA TU EXPERIENCIA "}),r.jsx("p",{className:`text-justify\r
+                      md:text-xl\r
+                      xl:text-3xl\r
+        `,children:" Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. "}),r.jsx(Po,{})]}),r.jsxs("section",{className:"my-4 relative",children:[r.jsx("img",{src:"/logo_WA.png",className:`absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg\r
+                                                     sm:top-[-3rem]\r
+                                                     lg:w-25 lg:right-[5rem]`}),r.jsx("h2",{className:`text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl\r
+                      lg:text-4xl lg:tracking-[1.2rem] lg:py-12\r
+        `,children:" ALIANZAS ESTRATÉGICAS "}),r.jsxs("ul",{className:`flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto\r
+                        lg:gap-10 lg:mb-15\r
+        `,children:[r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo7.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo6.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo5.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo4.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo3.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo2.png",alt:""})}),r.jsx("li",{className:`w-28\r
+                        lg:w-40\r
+          `,children:r.jsx("img",{src:"/logo1.png",alt:""})})]})]}),r.jsxs("section",{className:"bg-[var(--secondary-color)] py-4",children:[r.jsx("h2",{className:`text-white text-center\r
+                        lg:text-3xl lg:mb-4\r
+        `,children:" Suscríbete a nuestro newsletter y recibe noticias, descuentos y más "}),r.jsx("div",{className:"flex justify-center",children:r.jsx("input",{type:"email",className:`bg-white py-1 w-11/12 \r
+                                          sm:w-10/12 sm:py-2\r
+                                          md:w-8/12 md:py-4\r
+                                          lg:w-7/12\r
+          `})}),r.jsx("button",{className:`bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white\r
+                          md:mt-10 md:mb-12 md:text-2xl\r
+        `,children:" Suscribirme "})]}),r.jsx("footer",{className:"py-4 w-11/12 mx-auto",children:r.jsxs("ul",{className:`flex flex-col items-center\r
+                        md:flex-row md:flex-wrap md:gap-x-10 md:items-start md:py-10 md:justify-normal md:ml-5\r
+                        lg:gap-x-25 lg:ml-15\r
+                        2xl:gap-x-40\r
+        `,children:[r.jsxs("li",{className:`w-8/12 mx-auto flex flex-col\r
+                        md:w-2/12 md:mx-0\r
+          `,children:[r.jsx("img",{src:"/logo.png"}),r.jsx("img",{src:"/logos_redes.png"})]}),r.jsx("li",{children:r.jsxs("ul",{className:`flex flex-col items-center\r
+                    md:items-start\r
+            `,children:[r.jsx("li",{children:" Inicio "}),r.jsx("li",{children:"¿Quienes somos?"}),r.jsx("li",{children:"Viajes grupales"}),r.jsx("li",{children:"Viajes a la medida"}),r.jsx("li",{children:"Contáctanos"}),r.jsx("li",{children:"Alianzas estratégicas"}),r.jsx("li",{children:"Blogs"}),r.jsx("li",{children:"Términos y condiciones"}),r.jsx("li",{children:"Política de privacidad"}),r.jsx("li",{children:"Registro Nacional de Turismo"})]})}),r.jsx("li",{className:"my-2",children:r.jsxs("ul",{className:`flex flex-col items-center\r
+                          md:items-start\r
             `,children:[r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_mail.png"})," ",r.jsx("span",{className:"",children:" info@allintravels.com "})," "]}),r.jsxs("li",{className:"flex ",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_telefono.png"})," ",r.jsx("span",{className:"",children:" 0057 (604) 444 45 83 "})," "]}),r.jsxs("li",{children:[" ",r.jsxs("p",{className:"flex",children:[" ",r.jsx("img",{className:"size-5 mr-2",src:"/icono_ubicacion.png"})," Carrera 43A # 18 Sur - 135 Of 834, "]})," ",r.jsx("p",{children:" Sao Paulo Plaza Medellín - Colombia."})," "]})]})})]})})]})}Co.createRoot(document.getElementById("root")).render(r.jsx(Qn.StrictMode,{children:r.jsx(Io,{})}));
