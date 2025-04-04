@@ -20,7 +20,7 @@ const InfoCard : React.FC<infoCardProps> = ({className, img, status, title, date
     return (
         <div className={` ${className} max-w-[25rem] w-[90%`}>
             <div className={`info-card ${status} rounded-2xl w-full m-auto shadow-2xl relative z-10 bg-white`}>
-                <img src={img} alt={title} className="w-full object-cover" />
+                <img src={`/allintravels/${img}`} alt={title} className="w-full object-cover" />
                 <p className={`${headerColor} text-center text-white font-bold`}> {status} </p>
                 <h2 className="mt-3 text-center font-extrabold">{title}</h2>
                 <p className="text-[var(--main-color)] text-center font-bold px-4">{date} | {price}</p>

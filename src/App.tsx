@@ -16,7 +16,7 @@ function App() {
         <div className="text-center font-bold h-[50vh] 
           md:h-[85vh]
         ">
-          <div className="bg-[url('/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
+          <div className="bg-[url('/allintravels/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
             md:justify-emd md:pb-18
           ">
             <p className="text-white text-4xl tracking-[.4rem]
@@ -94,17 +94,17 @@ function App() {
         <InfoCard className="flex-1" date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
           price="DESDE 5.500 USD"
           title="SAFARI (ÁFRICA)"
-          img="/exp_grupales_1.png"
+          img="exp_grupales_1.png"
         />
         <InfoCard className="flex-1" date="30/04 - 11/05" status="AGOTADO" description="Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia." 
           price="DESDE 2.700 USD"
           title="JAPÓN: TRADICIÓN Y MODERNIDAD"
-          img="/exp_grupales_2.png"
+          img="exp_grupales_2.png"
         />
         <InfoCard className="flex-1" date="01 AL 08 DE ABRIL" status="CUPOS DISPONIBLES" description="El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo." 
           price=" DESDE 4.200 USD"
           title="EGIPTO: MÍSTICO Y MAJESTUOSO"
-          img="/exp_grupales_3.png"
+          img="exp_grupales_3.png"
         />
         <FaArrowAltCircleRight size={50} className="text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"/>
         </div>
