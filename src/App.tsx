@@ -16,7 +16,7 @@ function App() {
         <div className="text-center font-bold h-[50vh] 
           md:h-[85vh]
         ">
-          <div className="bg-[url('/src/assets/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
+          <div className="bg-[url('/header.png')] h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end gap-5 pb-10
             md:justify-emd md:pb-18
           ">
             <p className="text-white text-4xl tracking-[.4rem]
@@ -28,13 +28,13 @@ function App() {
             <div className="flex w-[300%] overflow-x-hidden custom-animation
               md:w-full md:gap-15 md:px-5 md:justify-center md:translate-y-10
             ">
-              <Card text="Viajes grupales" img="/src/assets/viajes_grupales.png" className="w-[70vw] mx-[15vw]
+              <Card text="Viajes grupales" img="/viajes_grupales.png" className="w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
               "/>
-              <Card text="Viajes a la medida" img="/src/assets/viajes_a_la_medida.png" className="w-[70vw] mx-[15vw]
+              <Card text="Viajes a la medida" img="/viajes_a_la_medida.png" className="w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
               "/>
-              <Card text="Destinos para parejas" img="/src/assets/destinos_para_parejas.png" className="w-[70vw] mx-[15vw]
+              <Card text="Destinos para parejas" img="/destinos_para_parejas.png" className="w-[70vw] mx-[15vw]
                 md:max-w-[25rem] md:mx-0
               "/>
             </div>
@@ -59,20 +59,20 @@ function App() {
           <TiSocialInstagram size={30} color="white"/>
         </div>
         <div className="m-auto sm:mx-4">
-          <img src="/src/assets/nosotros_1.png" className="sm:max-w-90"/>
+          <img src="/nosotros_1.png" className="sm:max-w-90"/>
           <p className="text-[var(--main-color)] floa"> @churroceballos </p>
         </div>
         <ul className="flex
             sm:overflow-x-hidden 
         ">
           <li>
-            <img src="/src/assets/nosotros_2.png" className="sm:max-w-90"></img>
+            <img src="/nosotros_2.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_3.png" className="sm:max-w-90"></img>
+            <img src="/nosotros_3.png" className="sm:max-w-90"></img>
           </li>
           <li>
-            <img src="/src/assets/nosotros_4.png" className="sm:max-w-90"></img>
+            <img src="/nosotros_4.png" className="sm:max-w-90"></img>
           </li>
         </ul>
         <div className="p-1 w-10 h-10 rounded-full flex items-center justify-center m-auto
@@ -94,17 +94,17 @@ function App() {
         <InfoCard className="flex-1" date="5 AL 15 DE ABRIL" status="¡ÚLTIMOS CUPOS!" description="Serengueti, viaje en globo, hotel todo incluido 4 estrellas. Vive la experiencia de conocer los 4 reyes de la sabana africana" 
           price="DESDE 5.500 USD"
           title="SAFARI (ÁFRICA)"
-          img="/src/assets/exp_grupales_1.png"
+          img="/exp_grupales_1.png"
         />
         <InfoCard className="flex-1" date="30/04 - 11/05" status="AGOTADO" description="Tokio, Monte Fuji y Kamajuza. Conoce la cultura que combina la tradicion y la tecnologia." 
           price="DESDE 2.700 USD"
           title="JAPÓN: TRADICIÓN Y MODERNIDAD"
-          img="/src/assets/exp_grupales_2.png"
+          img="/exp_grupales_2.png"
         />
         <InfoCard className="flex-1" date="01 AL 08 DE ABRIL" status="CUPOS DISPONIBLES" description="El Cairo, Piramides, Valle de los muertos y viaje por el Nilo. Retrocedamos en la historia y conozcamos una de las naciones más antiguas del mundo." 
           price=" DESDE 4.200 USD"
           title="EGIPTO: MÍSTICO Y MAJESTUOSO"
-          img="/src/assets/exp_grupales_3.png"
+          img="/exp_grupales_3.png"
         />
         <FaArrowAltCircleRight size={50} className="text-[var(--main-color)] absolute right-[-25px] hidden size-7 lg:block xl:size-10"/>
         </div>
@@ -122,7 +122,7 @@ function App() {
                       md:gap-15 md:justify-around md:w-full 
                       xl:my-10
         ">
-          <img src="/src/assets/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
+          <img src="/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
                     md:w-80 md:h-100
                     2xl:w-120 2xl:h-160
           "/> 
@@ -178,7 +178,7 @@ function App() {
         <Form/>
       </section>
       <section className="my-4 relative">
-      <img src="src/assets/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
+      <img src="/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
                                                      sm:top-[-3rem]
                                                      lg:w-25 lg:right-[5rem]" />
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl
@@ -190,37 +190,37 @@ function App() {
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo7.png" alt="" />
+            <img src="/logo7.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo6.png" alt="" />
+            <img src="/logo6.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo5.png" alt="" />
+            <img src="/logo5.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo4.png" alt="" />
+            <img src="/logo4.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo3.png" alt="" />
+            <img src="/logo3.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo2.png" alt="" />
+            <img src="/logo2.png" alt="" />
           </li>
           <li className="w-28
                         lg:w-40
           ">
-            <img src="src/assets/logo1.png" alt="" />
+            <img src="/logo1.png" alt="" />
           </li>
         </ul>
       </section>
@@ -248,8 +248,8 @@ function App() {
           <li className="w-8/12 mx-auto flex flex-col
                         md:w-2/12 md:mx-0
           ">
-            <img src="src/assets/logo.png" />
-            <img src="src/assets/logos_redes.png" />
+            <img src="/logo.png" />
+            <img src="/logos_redes.png" />
           </li>
           <li>
             <ul className="flex flex-col items-center
@@ -271,9 +271,9 @@ function App() {
             <ul className="flex flex-col items-center
                           md:items-start
             ">
-              <li className="flex "> <img className="size-5 mr-2" src="src/assets/icono_mail.png" /> <span className=""> info@allintravels.com </span> </li>
-              <li className="flex "> <img className="size-5 mr-2" src="src/assets/icono_telefono.png" /> <span className=""> 0057 (604) 444 45 83 </span> </li>
-              <li> <p className="flex"> <img className="size-5 mr-2" src="src/assets/icono_ubicacion.png" /> Carrera 43A # 18 Sur - 135 Of 834, </p> <p> Sao Paulo Plaza Medellín - Colombia.</p> </li>
+              <li className="flex "> <img className="size-5 mr-2" src="/icono_mail.png" /> <span className=""> info@allintravels.com </span> </li>
+              <li className="flex "> <img className="size-5 mr-2" src="/icono_telefono.png" /> <span className=""> 0057 (604) 444 45 83 </span> </li>
+              <li> <p className="flex"> <img className="size-5 mr-2" src="/icono_ubicacion.png" /> Carrera 43A # 18 Sur - 135 Of 834, </p> <p> Sao Paulo Plaza Medellín - Colombia.</p> </li>
             </ul>
           </li>
         </ul>

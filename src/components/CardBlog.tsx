@@ -13,7 +13,7 @@ const CardBlog : React.FC<cardBlogProps> = ({img, title, className, text, link})
         <div className={`${className} w-full h-full bg-white rounded-sm p-3 relative
                         lg:p-8 lg:rounded-xl
         `}>
-            <img src={`/src/assets/${img}`} className="object-cover w-full" alt="Blog Post" />
+            <img src={`/${img}`} className="object-cover w-full" alt="Blog Post" />
             <div className="card-blog-body">
                 <h3 className="font-bold my-2
                                 lg:text-xl

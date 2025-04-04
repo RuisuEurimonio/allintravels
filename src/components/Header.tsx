@@ -21,7 +21,7 @@ function Header() {
           md:flex md:top-7 md:h-auto md:translate-0 md:flex-row md:justify-between md:py-2 md:bg-transparent md:px-10
         `}>
             <FaX className="absolute right-0 top-0 font-medium px-2 md:hidden" size={34} values="X" onClick={()=>toggleMenu()}/> 
-            <img src="/assets/img/logo.png" className="object-cover max-w-50
+            <img src="/logo.png" className="object-cover max-w-50
                 md:max-w-40
             "/>
             <ul className="flex flex-col gap-4 text-center text-base
