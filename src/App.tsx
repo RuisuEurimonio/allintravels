@@ -155,7 +155,9 @@ function App() {
         <p className="text-justify"> Una vez llenado este formulario, uno de nuestros planners travelers se pondra en contacto contigo para perfeccionar ese viaje que tanto has soñado. Estamos aquí para brindarte la mejor experiencia. </p>
         <Form/>
       </section>
-      <section className="my-4">
+      <section className="my-4 relative">
+        <img src="src/assets/logo_WA.png" className="absolute w-1/12 top-[-2rem] right-10 drop-shadow-lg
+                                                     sm:top-[-3rem] " />
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.2rem] text-2xl"> ALIANZAS ESTRATÉGICAS </h2>
         <ul className="flex flex-wrap items-center justify-center gap-2 my-2 w-11/12 m-auto">
           <li className="w-28">
@@ -192,6 +194,9 @@ function App() {
         </div>
         <button className="bg-[var(--main-color)] py-3 block m-auto mt-5 px-6 uppercase font-bold text-sm rounded-md text-white"> Suscribirme </button>
       </section>
+      <footer>
+
+      </footer>
     </div>
   )
 }
