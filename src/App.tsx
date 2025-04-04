@@ -83,7 +83,9 @@ function App() {
       </section>
       <hr className="border-[var(--main-color)] w-[90%] m-auto"/>
       <section className="w-[90%] m-auto relative">
-        <h2 className="text-[var(--main-color)] font-extrabold text-center text-4xl my-4 tracking-[.5rem]"> Experiencias grupales. </h2>
+        <h2 className="text-[var(--main-color)] font-bold text-center text-4xl my-4 tracking-[.5rem] uppercase
+                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]
+        "> Experiencias grupales. </h2>
         <div className="flex flex-col gap-2 items-center
           sm:flex-row sm:flex-grow sm:flex-wrap sm:mx-4 
           md:justify-around md:gap-12
@@ -113,33 +115,45 @@ function App() {
       ">
         <h2 className="text-center text-[var(--main-color)] font-bold tracking-[.1rem]
                       sm:text-2xl sm:tracking-[.6rem]
+                      2xl:text-5xl 2xl:font-medium 2xl:py-6 2xl:tracking-[1.4rem]
         "> EXPERIENCIAS PERSONALIZADAS </h2>
         <div className="flex flex-col items-center
                       sm:flex-row sm:w-[90%] sm:m-auto sm:gap-6
                       md:gap-15 md:justify-around md:w-full 
+                      xl:my-10
         ">
           <img src="/src/assets/exp_personalizadas.png" className="object-cover w-60 h-80 mt-5
                     md:w-80 md:h-100
+                    2xl:w-120 2xl:h-160
           "/> 
-          <div className="w-[90%] m-auto">
-            <h3 className="font-bold text-center
+          <div className="w-[90%] mx-auto">
+            <h3 className="font-bold text-center py-3
                           sm:text-start
+                          md:text-2xl
+                          xl:text-4xl
+                          2xl:text-5xl
             "> ¿QUÉ NOS HACE DIFERENTES? </h3>
             <p className="text-justify
                           lg:text-xl
                           xl:text-2xl
+                          2xl:text-4xl
             "> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
             <button className="bg-[var(--main-color)] py-3 block m-auto mt-2 px-6 uppercase font-bold text-sm rounded-md text-white
                           sm:mx-0
+                          lg:text-2xl lg:mt-8
+                          xl:text-3xl
+                          2xl:text-4xl
             "> Cotizar mi viaje. </button>
           </div>
         </div>
       </section>
       <section className="bg-[var(--main-color)] py-3">
-        <h2 className="text-white text-2xl uppercase text-center font-bold tracking-[1rem] mb-4"> Blogs </h2>
+        <h2 className="text-white text-2xl uppercase text-center font-bold tracking-[1rem] my-4
+                      lg:text-4xl lg:mt-7 lg:mb-20
+        "> Blogs </h2>
         <div className="w-[90%] mx-auto grid gap-4
-                        md:grid-flow-col md:grid-rows-2 md:w-[85%]
-                        xl:w-[55%]
+                        md:grid-flow-col md:grid-rows-2 md:w-[85%] md:gap-10
+                        xl:w-[75%]
         ">
           <CardBlog className="row-span-2" img="blogs_1.png" title="DESTINOS PARA PAREJAS EN 2025" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam..." />
           <CardBlog img="blogs_2.png" title="VUELVE LA VISA PARA VIAJAR A LONDRES" text="" />

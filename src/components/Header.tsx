@@ -26,6 +26,7 @@ function Header() {
             "/>
             <ul className="flex flex-col gap-4 text-center text-base
                 md:flex-row md:gap-16
+                2xl:gap-36
             ">
                 <li className="font-bold"> Inicio. </li>
                 <li> Nosotros </li>

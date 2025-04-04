@@ -11,11 +11,17 @@ interface infoCardProps {
 }
 
 const InfoCard : React.FC<infoCardProps> = ({className, img, status, title, date, price, description})  => {
+    let headerColor = "bg-[var(--main-color)]";
+    if(status === "AGOTADO"){
+        headerColor = "bg-red-600";
+    } else if(status === "CUPOS DISPONIBLES"){
+        headerColor = "bg-green-600";
+    }
     return (
-        <div className={` ${className} max-w-[25rem] w-[90%]`}>
+        <div className={` ${className} max-w-[25rem] w-[90%`}>
             <div className={`info-card ${status} rounded-2xl w-full m-auto shadow-2xl relative z-10 bg-white`}>
                 <img src={img} alt={title} className="w-full object-cover" />
-                <p className="text-center bg-[var(--main-color)] text-white font-bold"> {status} </p>
+                <p className={`${headerColor} text-center text-white font-bold`}> {status} </p>
                 <h2 className="mt-3 text-center font-extrabold">{title}</h2>
                 <p className="text-[var(--main-color)] text-center font-bold px-4">{date} | {price}</p>
                 <p className="text-center px-4 pb-4">{description}</p>

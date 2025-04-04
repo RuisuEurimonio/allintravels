@@ -18,7 +18,7 @@ const Form = () => {
       <div className="flex flex-col my-5
                     md:flex-row gap-5 w-full
       ">
-        <div className="w-1/2">
+        <div className="md:w-1/2">
             <label>¿CUÁL ES EL DESTINO QUE QUIERES VISITAR?</label>
             <select className="bg-white block w-full py-1">
             <option value=""></option>
@@ -27,7 +27,7 @@ const Form = () => {
             <option value="neiva">Neiva</option>
             </select>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
             <label>¿QUÉ OTRO DESTINO TIENES EN MENTE?</label>
             <select className="bg-white block w-full py-1">
             <option value=""></option>
